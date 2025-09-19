@@ -1,103 +1,48 @@
-##Zepto Inventory Analysis 📊
+# 📊 Zepto Inventory Analysis  
 
-📌 Project Overview
-
-This project analyzes Zepto’s inventory data to understand stock levels, demand trends, and supplier performance.
-Using Power BI, we designed an interactive dashboard to provide insights for better inventory management, stock optimization, and demand forecasting.
-
+This project presents an interactive **Power BI dashboard** built on top of **SQL queries** to analyze **Zepto’s inventory performance**.  
+It provides insights into **sales, discounts, stock availability, and category-wise performance** to support better decision-making in retail operations.  
 
 ---
 
-🎯 Objectives
+## 🚀 Project Overview  
 
-Track product-wise and category-wise stock levels
-
-Identify fast-moving and slow-moving products
-
-Analyze stock utilization and out-of-stock rates
-
-Evaluate supplier performance
-
-Forecast future stock requirements
-
-
+The **Zepto Inventory Analysis Dashboard** helps answer key business questions such as:  
+- Which categories drive the highest sales?  
+- What is the total quantity and availability across inventory?  
+- How does discounting vary by product categories?  
+- Which products are frequently out of stock?  
 
 ---
 
-📂 Dataset Information
+## 📂 Dataset  
 
-Source → Zepto’s Inventory Dataset (Sample or Company Provided)
-
-Format → Excel / CSV
-
-Columns:
-
-Product_ID → Unique ID for each product
-
-Product_Name → Name of the product
-
-Category → Product category
-
-Stock_On_Hand → Available stock quantity
-
-Stock_Sold → Quantity sold
-
-Reorder_Level → Minimum stock before reorder
-
-Supplier_Name → Supplier details
-
-Date → Transaction date
-
-
-
+**Key Fields:**  
+- **Category** – Product categories (e.g., Munchies, Personal Care, Beverages)  
+- **Name** – Item name (e.g., Savlon, Pedigree)  
+- **Quantity** – Total available quantity  
+- **Net Price** – Net price after discount  
+- **Discount Percent** – Applied discount percentage  
+- **OutOfStock** – Boolean flag to check stock availability  
+- **Total Sale** – Overall revenue generated  
 
 ---
 
-🛠️ Tools & Technologies Used
+## 🛠️ Tools & Technologies
 
-Power BI → Dashboard creation & visualization
-
-Power Query → Data cleaning & transformation
-
-DAX → KPI calculations
-
-Excel / CSV → Raw data source
-
-(Optional) Python (Pandas, Matplotlib, Seaborn) → Pre-analysis
-
-
+- **SQL Server(SSMS)** – Data storage and query processing
+- **Power BI Desktop** – Dashboard creation & visualization
 
 ---
 
-📊 KPIs & Metrics
+## 📷 Dashboard Preview
 
-Total Inventory → Total available stock
+## 📌 Insights
 
-Stock Utilization % → (Stock Sold / Total Stock) * 100
+- Cooking Essentials, Munchies, and Personal Care are among the top-selling categories.
+- Discount Percent averages ~7.62% across all products.
+- Total Sales recorded: 140M+ with a quantity sum of 796K.
+- High-quantity items include Pedigree & Savlon.
+- Out-of-stock products with high MRP highlight missed revenue opportunities.
 
-Out-of-Stock Products → Products below reorder level
-
-Top 10 Fast-Moving Products
-
-Top 10 Slow-Moving Products
-
-Category-wise Demand
-
-Supplier Fulfillment %
-
-
-
----
-
-📈 Power BI Dashboard Features
-
-✅ Inventory Overview 📦
-✅ Top & Bottom Performing Products 🔝
-✅ Category-wise Analysis 🏷️
-✅ Supplier Performance Insights 🚚
-✅ Forecasting & Recommendations 📌
-
-(Attach dashboard screenshots here)
-
-
----
+--- 
